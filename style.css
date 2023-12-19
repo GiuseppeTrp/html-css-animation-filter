@@ -213,3 +213,128 @@ ESERCIZIO 1 */
     width: 60px;
     height: 20px;
 }
+
+
+/* ESERCIZIO 12 */
+/* soluzione */
+
+@keyframes whitespace-top-move {
+    0% {
+        left: 10%;
+    }
+
+    50% {
+        left: 60%;
+    }
+
+    100% {
+        left: 10%;
+    }
+}
+
+.ex-12-button .ex-12-top-white {
+    animation-name: whitespace-top-move;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes whitespace-bottom-move {
+    0% {
+        right: 20%;
+    }
+
+    50% {
+        right: 60%;
+    }
+
+    100% {
+        right: 20%;
+    }
+}
+
+.ex-12-button .ex-12-bottom-white {
+    animation-name: whitespace-bottom-move;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+
+/* ESERCIZIO 13 */
+/* soluzione */
+
+
+
+@keyframes whitespace-13-top-move {
+    0% {
+        top: -10px;
+        left: 10%;
+    }
+
+    20% {
+        top: -10px;
+
+        left: 90%;
+    }
+
+    35% {
+        left: 90%;
+        top: 90%;
+    } 
+
+    70% {
+        left: -10%;
+        top: 90%;
+    }
+
+    85% {
+        left: -10%;
+        top: -10px;
+    }
+
+    100% {
+        top: -10px;
+        left: 10%;
+    }
+}
+
+
+
+@keyframes whitespace-13-top-move {
+    0% {
+        top: -10px;
+        left: 10%;
+    }
+
+    20% {
+        top: -10px;
+
+        left: 90%;
+    }
+
+    35% {
+        left: 90%;
+        top: 90%;
+    } 
+
+    70% {
+        left: -10%;
+        top: 90%;
+    }
+
+    85% {
+        left: -10%;
+        top: -10px;
+    }
+
+    100% {
+        top: -10px;
+        left: 10%;
+    }
+}
+
+
+.ex-13-button .ex-13-top-white {
+    animation-name: whitespace-13-top-move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;}
